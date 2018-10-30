@@ -2,8 +2,8 @@ cd %~dp0
 cd  go\src\gocv.io\x\gocv\
 echo off
 
-SET BUILD_DIR=%WORKSPACE%/opencv/build
-SET SOURCE_DIR=%WORKSPACE%/opencv
+SET BUILD_DIR=%WORKSPACE%\opencv\build
+SET SOURCE_DIR=%WORKSPACE%\opencv
 if not exist "%SOURCE_DIR%" mkdir "%SOURCE_DIR%"
 if not exist "%SOURCE_DIR%\build" mkdir "%SOURCE_DIR%\build"
 
